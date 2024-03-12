@@ -1,0 +1,41 @@
+:root {
+  --green: rgb(0, 128, 0);
+  --orange: rgb(200, 132, 7);
+  --black: #1e1e1f;
+  --white: rgb(255, 255, 255);
+  --light-color: #666;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --border: 0.2rem solid rgba(0, 0, 0, 1);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --outline: 0.1rem solid rgba(0, 0, 0, 1);
+}
+
+.gallery-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 2fr));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gallery-container .gallery {
+  border-color: transparent;
+  box-shadow: var(--box-shadow);
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.gallery-container .gallery:hover {
+  box-shadow: 10px 10px 20px grey;
+}
+
+/* .icons-container .icons:hover{
+      padding: 0.1px;
+  } */
+
+.gallery-container .gallery img {
+  width: 300px;
+  height: auto;
+}

@@ -385,7 +385,7 @@ h1 {
   color: rgb(250, 0, 0);
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   html {
     font-size: 55%;
   }
@@ -399,7 +399,7 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #menu-btn {
     display: initial;
   }
@@ -434,34 +434,24 @@ h1 {
     width: 100%;
     padding-left: 4em;
   }
-  /* .footer .footer-content p{
-        max-width: 85%;
-    } */
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-  /* .footer .footer-content p{
-        max-width: 90%;
-    } */
+  /* 
   .footer .socials a i {
     font-size: 3.2rem;
     padding: 0.5rem;
     width: 0.5rem;
     margin: auto;
     text-align: center;
+  } */
+
+  .icons-container .question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 3.6rem;
   }
-}
 
-.question {
-  font-size: 1.2rem;
-  font-weight: bold;
-  min-height: 3.6rem;
-}
-
-.answer {
-  font-size: 1rem;
-  max-height: 20rem;
+  .icons-container .answer {
+    font-size: 1rem;
+    max-height: 1rem;
+    overflow: hidden;
+  }
 }
