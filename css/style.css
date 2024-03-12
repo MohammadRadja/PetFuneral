@@ -166,7 +166,6 @@ h1 {
 .home .home-content .desc {
   font-size: 4rem;
   color: var(--black);
-  text-shadow: var(--text-shadow);
   line-height: 1.8;
   padding: 1rem 0;
 }
@@ -174,7 +173,6 @@ h1 {
 .home .home-content p {
   font-size: 2rem;
   color: var(--black);
-  text-shadow: var(--text-shadow);
   line-height: 1.8;
   padding: 1rem 0;
 }

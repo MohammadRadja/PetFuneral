@@ -39,3 +39,7 @@
   width: 300px;
   height: auto;
 }
+
+.footer {
+  position: fixed;
+}
