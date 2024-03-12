@@ -401,7 +401,7 @@ h1 {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   #menu-btn {
     display: initial;
   }
@@ -440,6 +440,10 @@ h1 {
     width: 100%;
     padding-left: 4em;
   }
+
+  .home-content .desc2 {
+    display: none;
+  }
   /* 
   .footer .socials a i {
     font-size: 3.2rem;
@@ -459,8 +463,7 @@ h1 {
     font-size: 1rem;
     max-height: 50rem;
     max-width: 50rem;
-    white-space: nowrap; /* Mencegah pemisahan baris */
-    text-overflow: ellipsis;
-    writing-mode: vertical-rl;
+    white-space: normal; /* Mencegah pemisahan baris */
+    text-overflow: initial;
   }
 }
