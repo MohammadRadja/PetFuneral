@@ -406,7 +406,7 @@ h1 {
     display: initial;
   }
 
-  .header .logo {
+  .header .logo p {
     display: none;
   }
 
@@ -460,6 +460,5 @@ h1 {
     max-height: 50rem;
     white-space: nowrap; /* Mencegah pemisahan baris */
     text-overflow: ellipsis;
-    overflow: hidden;
   }
 }
