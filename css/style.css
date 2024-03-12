@@ -458,7 +458,7 @@ h1 {
 
   .icons-container .answer {
     font-size: 1rem;
-    max-height: 10rem;
+    max-height: 50rem;
     white-space: nowrap; /* Mencegah pemisahan baris */
     text-overflow: ellipsis;
     overflow: hidden;
