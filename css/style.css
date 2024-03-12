@@ -407,7 +407,7 @@ h1 {
   }
 
   .header .logo {
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     white-space: nowrap;
   }
 
