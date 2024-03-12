@@ -24,7 +24,7 @@
 
 .headers {
   /* width: 33.3%; */
-  padding: 0.8em;
+  padding: 0.8rem;
   background-color: #111;
   color: white;
   font-size: 2.5rem;
@@ -55,10 +55,28 @@
 .price .grey {
   background-color: #eee;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .price .offers {
   font-size: 1.5rem;
+  background-color: #eee;
+  text-align: left;
+}
+
+.price .kategori {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.price .item {
+  flex-basis: calc(50% - 5px);
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 50%;
 }
 
 .button {

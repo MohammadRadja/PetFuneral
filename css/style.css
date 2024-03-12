@@ -467,4 +467,8 @@ h1 {
     white-space: normal; /* Mencegah pemisahan baris */
     text-overflow: initial;
   }
+
+  .footer {
+    width: 100%;
+  }
 }
