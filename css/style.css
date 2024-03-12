@@ -407,8 +407,7 @@ h1 {
   }
 
   .header .logo {
-    writing-mode: horizontal-tb;
-    white-space: nowrap;
+    display: none;
   }
 
   .header .navbar {
