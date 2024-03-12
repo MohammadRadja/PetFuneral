@@ -407,8 +407,7 @@ h1 {
   }
 
   .header .logo {
-    display: flex;
-    writing-mode: vertical-rl; /* Tulisan akan tetap memanjang secara vertikal */
+    writing-mode: vertical-rl;
     white-space: nowrap;
   }
 
