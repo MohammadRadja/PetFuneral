@@ -439,6 +439,7 @@ h1 {
   .home .home-content {
     width: 100%;
     padding-left: 4em;
+    color: black;
   }
 
   .home-content .desc2 {
