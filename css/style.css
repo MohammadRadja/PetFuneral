@@ -159,6 +159,10 @@ h1 {
   text-shadow: var(--text-shadow);
 }
 
+.home .home-content span {
+  color: rgb(250, 0, 0);
+}
+
 .home .home-content .desc {
   font-size: 4rem;
   color: var(--black);
@@ -314,7 +318,7 @@ h1 {
 }
 
 .footer .footer-content h3 {
-  font-size: 5.1rem;
+  font-size: 3rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 3rem;
@@ -374,11 +378,11 @@ h1 {
   word-spacing: 2px;
   color: #ffff;
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .footer-bottom p a {
   color: #ffff;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 .footer-bottom span {
