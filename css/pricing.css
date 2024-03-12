@@ -72,10 +72,6 @@
   font-size: 2rem;
 }
 
-.footer {
-  position: fixed;
-}
-
 @media only screen and (max-width: 700px) {
   .pricing .pricelist {
     flex-direction: column;
