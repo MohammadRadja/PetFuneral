@@ -148,7 +148,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-left: 1rem;
-  width: 30%;
+  width: 40%;
   padding-bottom: 1rem;
 }
 
@@ -203,7 +203,7 @@ h1 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  padding-top: 5rem;
+  padding-top: 1.5rem;
   padding-bottom: 5rem;
 }
 
