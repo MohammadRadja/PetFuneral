@@ -406,6 +406,12 @@ h1 {
     display: initial;
   }
 
+  .header .logo {
+    display: flex;
+    writing-mode: vertical-rl; /* Tulisan akan tetap memanjang secara vertikal */
+    white-space: nowrap;
+  }
+
   .header .navbar {
     position: absolute;
     top: 115%;
@@ -453,7 +459,7 @@ h1 {
 
   .icons-container .answer {
     font-size: 1rem;
-    max-height: 1rem;
+    max-height: 10rem;
     white-space: nowrap; /* Mencegah pemisahan baris */
     text-overflow: ellipsis;
     overflow: hidden;
