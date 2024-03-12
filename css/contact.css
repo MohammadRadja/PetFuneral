@@ -91,3 +91,7 @@
   text-transform: none;
   padding-bottom: 10rem;
 }
+
+.footer {
+  position: fixed;
+}
