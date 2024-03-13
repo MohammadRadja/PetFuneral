@@ -136,7 +136,7 @@ h1 {
 
 .home {
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
   padding-top: 10rem;
   align-items: center;
   /* height: 50vh; */
