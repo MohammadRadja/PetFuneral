@@ -15,6 +15,7 @@
   grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr));
   gap: 1.5rem;
   text-align: center;
+  margin-bottom: 1%;
 }
 
 .contact .box-container .box {
