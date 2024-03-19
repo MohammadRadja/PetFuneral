@@ -92,3 +92,15 @@
   text-transform: none;
   padding-bottom: 10rem;
 }
+
+@media (max-width: 767.98px) {
+  .contact .box-container {
+    grid-template-columns: 1fr; /* Mengatur kolom menjadi satu kolom pada perangkat mobile */
+    gap: 1rem; /* Mengurangi jarak antar kotak pada perangkat mobile */
+    margin-bottom: 1; /* Menghapus margin bawah pada perangkat mobile */
+  }
+
+  .contact .box-container .box {
+    padding: 1.5rem; /* Mengurangi padding pada perangkat mobile */
+  }
+}
