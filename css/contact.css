@@ -48,7 +48,7 @@
   font-size: 2rem;
   line-height: 1.5;
 }
-
+/* 
 .form .container form {
   flex: 1 1 45rem;
   background: #fff;
@@ -57,19 +57,19 @@
   text-align: center;
   padding: 2rem;
   border-radius: 0.5rem;
-}
-
+} */
+/* 
 .form .container form h3 {
   text-align: center;
   padding-bottom: 2rem;
-  /* text-shadow: var(--text-shadow); */
+  text-shadow: var(--text-shadow);
   text-transform: uppercase;
   color: var(--black);
   font-size: 3.6rem;
   letter-spacing: 0.4rem;
   color: var(--orange);
-}
-
+} */
+/* 
 .form .container form .box {
   width: 100%;
   margin: 0.7rem 0;
@@ -79,9 +79,9 @@
   color: var(--red);
   text-transform: none;
   padding: 1rem;
-  /* box-shadow: 10px 10px 20px grey; */
-}
-
+  box-shadow: 10px 10px 20px grey;
+} */
+/* 
 .form .container form .problem {
   width: 100%;
   margin-top: 0.7rem;
@@ -91,13 +91,13 @@
   color: var(--black);
   text-transform: none;
   padding-bottom: 10rem;
-}
+} */
 
 @media (max-width: 767.98px) {
   .contact .box-container {
     grid-template-columns: 1fr; /* Mengatur kolom menjadi satu kolom pada perangkat mobile */
     gap: 1rem; /* Mengurangi jarak antar kotak pada perangkat mobile */
-    margin-bottom: 1; /* Menghapus margin bawah pada perangkat mobile */
+    margin-bottom: 1rem; /* Menghapus margin bawah pada perangkat mobile */
   }
 
   .contact .box-container .box {
