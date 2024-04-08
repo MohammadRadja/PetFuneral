@@ -141,6 +141,8 @@ h1 {
   align-items: center;
   /* height: 50vh; */
   background: url(../assets/hero.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .home .home-content {
@@ -439,12 +441,27 @@ h1 {
 
   .home {
     background-size: 100% 100%;
+    background-position: center;
   }
 
   .home .home-content {
     width: 75%;
-    padding-left: 5em;
+    padding-left: 1rem;
     color: black;
+  }
+
+  .home .home-content h3 {
+    white-space: wrap;
+  }
+
+  .home .home-content .desc {
+    white-space: wrap;
+    font-size: 31.5px;
+  }
+
+  .home .home-content .btn {
+    white-space: nowrap;
+    font-weight: 900;
   }
 
   .home-content .desc2 {
